@@ -1,36 +1,59 @@
 body{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
-    line-height: 1.5;
-    padding: 0;
-    margin: 0;
-    background-color: #f4f4f4;
+    background-color: #DBD4CA;
+    color: #585858;
+    border: none;
 }
 
-/*Global*/
-.container{
+/*Text container*/
+.left{
+    float: left;
+}
+
+.hide{
+    width: 100%;
+}
+
+.show{
+    width: 60%;
+}
+
+.blue{
+    background-color: blue;
+}
+
+/*Text styling*/
+.center-text{
+    text-align: center;
+}
+
+.big-text{
+    font-size: 4vw;
+}
+
+.tiny-text{
+    font-size: 1vw;
+}
+
+/**/
+.center-elem{
+    display: grid;
+    place-items: center;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
     width: 80%;
-    margin: auto;
-    overflow: hidden;
-
 }
 
-/*Header*/
-header{
-    background: #35424a;
-    color: #ffffff;
-    padding-top: 30px;
-    min-height: 70px;
-    border-bottom: #e8491d 3px solid;
+/*Side Image*/
+.right{
+    width: 40%;
+    float: right;
 }
 
-header a{
-    color: #ffffff;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 16px;
-}
-
-header ul{
-    
+#church{
+    aspect-ratio: 581 / 1104; 
+    margin: -8px;
 }

@@ -5,57 +5,23 @@
 		<meta name="viewport" content="width=device-width">
 		<title>PR's personal website</title>
 		<link rel="stylesheet" type="text/css" href="/styles/main.css">
+		<script type="text/javascript" src="scripts/temp.js"></script>
 	</head>
-	<body>
-		<header>
-			<div class="container">
-				<div id="branding">
-					<h1>Temp Branding</h1>
-				</div>
-			</div>
-			<nav>
+	<body onresize="checkImageSize()">
+		<div id="container" class="left show">
+			<h1 class="center-elem big-text">
+				Hi, I'm Patrick Radke
+			</h1>
+			<nav class="center-elem tiny-text">
 				<ul>
-					<li><a href="/index.html">Home</a></li>
 					<li><a href="/about.html">About</a></li>
+					<li><a href="/projects.html">Work</a></li>
 					<li><a href="/projects.html">Projects</a></li>
+					<li><a href="https://github.com/phr5493">Github</a></li>
+					<li><a href="/about.html">Contact</a></li>
 				</ul>
 			</nav>
-		</header>
-		<section id="showcase">
-			<div class="container">
-        		<h1>Hi there, I'm phr!</h1>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ac porta ipsum. Phasellus dignissim nulla quis nisi varius pharetra. Curabitur elementum laoreet nisl, eu sagittis dui ullamcorper vitae. Mauris nulla odio, rhoncus et luctus ut, viverra a ex. Etiam eleifend magna eget lacus congue, nec accumsan est condimentum. In mattis leo sed ligula fringilla finibus. Vivamus eget eros at eros malesuada dictum quis faucibus arcu. Phasellus vel lectus mollis, vulputate leo non, placerat velit. Suspendisse quis nisl sed ex vehicula semper et a nisl.</p>
-			</div>
-		</section>
-		<section id="newsletter">
-			<div class="container">
-				<h1>Subsrbe to our newsletter</h1>
-				<form>
-					<input type="email" placeholder="Eneter email...">
-					<button type="submit" class="button1">Subscribe</button>
-				</form>
-			</div>
-		</section>
-		<section id="boxes">
-			<div class="container">
-				<div class="box">
-					<h3>HTML5 Markup</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ac porta ipsum. Phasellus dignissim nulla quis nisi varius pharetra. Curabitur elementum laoreet nisl, eu sagittis dui ullamcorper vitae. Mauris nulla odio, rhoncus et luctus ut, viverra a ex. Etiam eleifend magna eget lacus congue, nec accumsan est condimentum. In mattis leo sed ligula fringilla finibus. Vivamus eget eros at eros malesuada dictum quis faucibus arcu. Phasellus vel lectus mollis, vulputate leo non, placerat velit. Suspendisse quis nisl sed ex vehicula semper et a nisl.</p>
-				</div>
-				<div class="box">
-					<h3>CSS3 Styling</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ac porta ipsum. Phasellus dignissim nulla quis nisi varius pharetra. Curabitur elementum laoreet nisl, eu sagittis dui ullamcorper vitae. Mauris nulla odio, rhoncus et luctus ut, viverra a ex. Etiam eleifend magna eget lacus congue, nec accumsan est condimentum. In mattis leo sed ligula fringilla finibus. Vivamus eget eros at eros malesuada dictum quis faucibus arcu. Phasellus vel lectus mollis, vulputate leo non, placerat velit. Suspendisse quis nisl sed ex vehicula semper et a nisl.</p>
-				</div>
-				<div class="box">
-					<h3>Graphic design</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ac porta ipsum. Phasellus dignissim nulla quis nisi varius pharetra. Curabitur elementum laoreet nisl, eu sagittis dui ullamcorper vitae. Mauris nulla odio, rhoncus et luctus ut, viverra a ex. Etiam eleifend magna eget lacus congue, nec accumsan est condimentum. In mattis leo sed ligula fringilla finibus. Vivamus eget eros at eros malesuada dictum quis faucibus arcu. Phasellus vel lectus mollis, vulputate leo non, placerat velit. Suspendisse quis nisl sed ex vehicula semper et a nisl.</p>
-				</div>
-			</div>
-		</section>
-		<footer>
-    		<ul>
-        		<li><a href="https://github.com/phr5493">github.com/phr5493</a></li>
-			</ul>
-		</footer>
+		</div>
+		<img id="church" class="right" src="/images/gothic-faded.png" alt="misty gothic church" >
 	</body>
 </html>

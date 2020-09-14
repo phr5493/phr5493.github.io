@@ -30,6 +30,14 @@ body{
     font-size: 4vw;
 }
 
+.med-text{
+    font-size: 1.5vw;
+}
+
+.small-text{
+    font-size: 1.5vw;
+}
+
 .tiny-text{
     font-size: 1vw;
 }
@@ -44,16 +52,14 @@ ul{
     display: flex;
     justify-content: space-between;
     list-style-type: none;
-    width: 80%;
+    width: 85%;
 }
+
 
 /*Side Image*/
-.right{
+#gothic{
+    position: fixed;
+    top: 0;
     width: 40%;
-    float: right;
-}
-
-#church{
-    aspect-ratio: 581 / 1104; 
-    margin: -8px;
+    height: auto;
 }

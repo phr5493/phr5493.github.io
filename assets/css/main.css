@@ -2115,12 +2115,21 @@ input, select, textarea {
 			top: 0.25em;
 		}
 
-		.image.left, .image.right {
+		.image.center {
+			margin: 0 2em 2em 0;
+			top: 0.25em;
+		}
+
+		.image.left, .image.right, .image.center {
 			max-width: 40%;
 		}
 
-			.image.left img, .image.right img {
+			.image.left img, .image.right img, .image.center img {
 				width: 100%;
+			}
+
+			#headshot.image.center img {
+				border-radius: 50%;
 			}
 
 		.image.fit {
